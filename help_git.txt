@@ -1,0 +1,20 @@
+# to see what has changed
+git status
+
+# to add files to the commit
+git add file_list
+
+# to see changes from master before committing
+git diff master
+
+# to commit the files you added
+git commit -m "Relavent comments"
+
+# to push the commit back to the repo
+git push origin master
+
+# to see a log of all your commits
+git log
+
+# to see changes from another commit
+git diff commithash
